@@ -1,0 +1,17 @@
+#include <iostream>
+#include <string>
+
+int main() {
+    // Prompt the user for their name
+    std::cout << "Enter your name: ";
+
+    // Read the user's input into a string
+    std::string name;
+    std::getline(std::cin, name);
+
+    // Print a greeting with the user's name
+    std::cout << "Hello, " << name << "! Welcome to the Console App." << std::endl;
+
+    // Return 0 to indicate successful execution
+    return 0;
+}
